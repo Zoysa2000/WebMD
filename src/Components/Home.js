@@ -14,14 +14,14 @@ import Footer from "./Footer";
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-	<img alt='logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStvNCIYaNgriS02NkiDa4fI_1eBmlKxwy_zw&s" className="carousel-img"  onDragStart={handleDragStart} role="presentation"  />,
-	<img alt='logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5oM1m_R7I2WkyLqkilT7FSxUqq79kArCuOw&s"className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
-	<img alt='logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0b2eJEJOk4TBm-rCoi25gcZUiwGiDth56A&s" className="carousel-img"  onDragStart={handleDragStart} role="presentation"/>,
-  <img alt='logo' src="https://d2yy7txqjmdbsq.cloudfront.net/events/b5473dbb-9a91-46cc-acf5-98e66671ccf9/logo_LSEG+stacked+logo.png" className="carousel-img" onDragStart={handleDragStart} role="presentation"/>,
-	<img alt='logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8na6JEgQd-QS8J_QryZcJg69R2_aTC5YjsA&s" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
-	<img alt='logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZgPn0bupBBdEtRyW-Ojo6aTwkiwsqejob_Q&s" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
-  <img alt='logo' src="https://files.klob.id/public/mcois01/kt84m75v/Axiata_Digital_Labs_Indonesia_(2)_-_Axiata_Digital_Labs_Indonesia.jpg" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
-	<img alt='logo'src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSRLwPhxoZwNoGjGbMptg11mxHzQ-so1x1dQ&s" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
+	<img alt='logo' src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/489006679_18391899934114154_244085429873608196_nfull.jpg" className="carousel-img"  onDragStart={handleDragStart} role="presentation"  />,
+	<img alt='logo' src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/488651535_18391564714114154_4619168879020743748_nfull.jpg"className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
+	<img alt='logo' src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/487914717_18390916960114154_2062779908512764890_nfull.jpg" className="carousel-img"  onDragStart={handleDragStart} role="presentation"/>,
+  <img alt='logo' src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/487358715_18390213760114154_8331193208072691423_nfull.jpg" className="carousel-img" onDragStart={handleDragStart} role="presentation"/>,
+	<img alt='logo' src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/489488320_18392402788114154_7028342106412823005_nfull.jpg" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
+	<img alt='logo' src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/485644547_18388931821114154_8199988363279812850_nfull.jpg" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
+  <img alt='logo' src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/485638368_18389395816114154_1200480732569100951_nfull.jpg" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
+	<img alt='logo'src="https://world-heart-federation.org/wp-content/uploads/sb-instagram-feed-images/486767393_18390049927114154_2289055999805198852_nfull.jpg" className="carousel-img" onDragStart={handleDragStart} role="presentation" />,
 ];
 
 function Home()
@@ -46,6 +46,11 @@ function Home()
     const handleuserReg=()=>
     {
       navigate('/PatientReg',{replace:true});
+    }
+
+    const handlePredict =()=>
+    {
+      navigate('/Predict',{replace:true});
     }
     
 
@@ -129,7 +134,7 @@ function Home()
 
           <Popup
             trigger={
-              <button type="button"  style={{backgroundColor:"red"}} className="btn text-white">
+              <button type="button"  style={{backgroundColor:"red"}} className="btn text-white" onClick={handlePredict}>
                 Login WebMD
               </button>
             }
@@ -155,7 +160,7 @@ function Home()
                   type="password"
                   placeholder="Password"
                 />
-                <button style={{backgroundColor:"red"}} className="mt-3 w-100 btn text-white">
+                <button style={{backgroundColor:"red"}} className="mt-3 w-100 btn text-white" onClick={handlePredict}>
                   <IoMdLogIn size={25} /> &nbsp;Login WebMD
                 </button>
                 <Button className="mt-3 w-100 btn btn-outline-dark">
@@ -201,7 +206,7 @@ function Home()
    <AliceCarousel mouseTracking items={items}  responsive={responsive}
    autoPlay
    autoPlayStrategy="none"
-   autoPlayInterval={100}
+   autoPlayInterval={400}
    infinite
    />
    </div>
