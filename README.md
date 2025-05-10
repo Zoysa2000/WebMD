@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# ML Powerd Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WebMD is a machine learning-powered app that predicts heart stroke risk using a Logistic Regression model. Developed in Jupyter with a preprocessed dataset, it integrates Flask API and React.Js to deliver accurate, real-time predictions through a user-friendly interface.
 
-## Available Scripts
+![Screenshot (1250)](https://github.com/user-attachments/assets/98c61cfd-2782-4c48-896c-b71ba8117cb1)
 
-In the project directory, you can run:
+![Screenshot (1251)](https://github.com/user-attachments/assets/9bfa4157-3acf-4466-a7d5-7bb239919357)
 
-### `npm start`
+![Screenshot (1246)](https://github.com/user-attachments/assets/0817c075-d613-4025-93d0-8957a7b48afa)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (1247)](https://github.com/user-attachments/assets/0401411d-a28b-4647-b076-b6a0999de304)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot (1248)](https://github.com/user-attachments/assets/b5aa8b54-a801-4231-8c4d-591e42c97a6a)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot (1249)](https://github.com/user-attachments/assets/0989135c-91f0-4906-8fa9-269c450b1af5)
